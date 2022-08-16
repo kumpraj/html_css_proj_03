@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2b2922;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+   
+}
+
+.navbar {
+    display:flex;
+    padding: 10px 120px;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 110px;
+    margin-top: 15px;
+}
+
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 5px;
+    gap: 60px;
+}
+
+.list-item {
+    display: block;
+    cursor: pointer;
+}
+
+.list-item:hover {
+    opacity: 0.8;
+}
+
+.list-item-btn {
+    margin-right: 50px;
+}
+
+.list-item:first-child {
+    color:#FFFFFF;
+    font-weight: bolder;
+}
+
+.navbar .list button {
+    background-color: transparent;
+    border: 1px solid #a08f36;
+    color: #a08f36;
+    padding: 20px 35px;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.navbar .list button:hover {
+    opacity: 0.8;
+} 
+
+/* ---Hero Section--- */
+
+.hero {
+    display: flex;
+    padding: 5px 120px;
+    justify-content: space-between;
+    justify-content: start;
+}
+
+.hero-left h1 {
+    font-size: 70px;
+    text-transform: capitalize;
+    padding: 40px 20px;
+}
+
+.hero-right {
+    align-self: center;
+    font-size:16px;
+    line-height: 1.7;
+    margin-left: 100px;
+    position: relative;
+    left: 25px;
+}
+
+
+
+/* -- banner section -- */
+
+.banner-container {
+    height: 650px;
+    overflow:hidden;
+}
+
+.banner-container img {
+    position: relative;
+    top: -200px;
+    width: 100%;
+    object-fit: center;
+}
+
+.arrow-btns {
+    height: 100px;
+    display: flex;
+    justify-content: end;
+}
+
+.arrow-btns div {
+    padding: 50px;
+}
+
+.arrow-btns div:last-child {
+    background-color: #a08f36;
+}
+
+.arrow-btns div:first-child {
+    background-color: #5a5235c4;
+}
+
+.arrow-btns div span i {
+    position: relative;
+    bottom: 15px;
+}
+
+.arrow-btns div:first-child span i {
+    color: #a08f36;
+    border: 2px solid #a08f36;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.arrow-btns div:last-child span i {
+    border: 2px solid white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
